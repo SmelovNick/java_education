@@ -1,2 +1,2 @@
-myclass.java
- myclass
+ru/stqa/pft/sandbox/myclass.java
+ ru.stqa.pft.sandbox.myclass
