@@ -1,0 +1,2 @@
+ru/stqa/pft/javawebtesting/AddGroupTest.java
+ ru.stqa.pft.javawebtesting.AddGroupTest
