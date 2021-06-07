@@ -20,6 +20,7 @@ public class HelperBase {
 
     protected void typeInField(By locator, String name) {
         click(locator);
+        driver.findElement(locator).clear();
         driver.findElement(locator).sendKeys(name);
     }
 }

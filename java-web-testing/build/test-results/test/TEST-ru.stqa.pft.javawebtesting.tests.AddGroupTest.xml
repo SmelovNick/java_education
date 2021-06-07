@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.javawebtesting.tests.AddGroupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-07T19:38:08" hostname="YARRISLAPTOP" time="0.574">
-  <properties/>
-  <testcase name="addGroup" classname="ru.stqa.pft.javawebtesting.tests.AddGroupTest" time="0.574"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

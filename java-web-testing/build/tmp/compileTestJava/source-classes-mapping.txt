@@ -1,18 +1,20 @@
-ru/stqa/pft/javawebtesting/appmanager/NavigationHelper.java
- ru.stqa.pft.javawebtesting.appmanager.NavigationHelper
 ru/stqa/pft/javawebtesting/model/GroupData.java
  ru.stqa.pft.javawebtesting.model.GroupData
 ru/stqa/pft/javawebtesting/tests/DeleteGroupTest.java
  ru.stqa.pft.javawebtesting.tests.DeleteGroupTest
+ru/stqa/pft/javawebtesting/appmanager/SessionHelper.java
+ ru.stqa.pft.javawebtesting.appmanager.SessionHelper
 ru/stqa/pft/javawebtesting/tests/AddGroupTest.java
  ru.stqa.pft.javawebtesting.tests.AddGroupTest
 ru/stqa/pft/javawebtesting/appmanager/HelperBase.java
  ru.stqa.pft.javawebtesting.appmanager.HelperBase
 ru/stqa/pft/javawebtesting/appmanager/GroupHelper.java
  ru.stqa.pft.javawebtesting.appmanager.GroupHelper
+ru/stqa/pft/javawebtesting/appmanager/NavigationHelper.java
+ ru.stqa.pft.javawebtesting.appmanager.NavigationHelper
 ru/stqa/pft/javawebtesting/appmanager/ApplicationManager.java
  ru.stqa.pft.javawebtesting.appmanager.ApplicationManager
 ru/stqa/pft/javawebtesting/tests/TestBase.java
  ru.stqa.pft.javawebtesting.tests.TestBase
-ru/stqa/pft/javawebtesting/appmanager/SessionHelper.java
- ru.stqa.pft.javawebtesting.appmanager.SessionHelper
+ru/stqa/pft/javawebtesting/tests/EditGroupTest.java
+ ru.stqa.pft.javawebtesting.tests.EditGroupTest
