@@ -1,4 +1,4 @@
-package ru.stqa.pft.javawebtesting;
+package ru.stqa.pft.javawebtesting.model;
 
 public class GroupData {
     private final String name;

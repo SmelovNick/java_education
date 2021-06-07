@@ -1,4 +1,8 @@
-ru/stqa/pft/javawebtesting/AddGroupTest.java
- ru.stqa.pft.javawebtesting.AddGroupTest
 ru/stqa/pft/javawebtesting/GroupData.java
  ru.stqa.pft.javawebtesting.GroupData
+ru/stqa/pft/javawebtesting/TestBase.java
+ ru.stqa.pft.javawebtesting.TestBase
+ru/stqa/pft/javawebtesting/AddGroupTest.java
+ ru.stqa.pft.javawebtesting.AddGroupTest
+ru/stqa/pft/javawebtesting/DeleteGroupTest.java
+ ru.stqa.pft.javawebtesting.DeleteGroupTest
