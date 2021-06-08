@@ -1,9 +1,10 @@
-package ru.stqa.pft.javawebtesting.tests;
+package ru.stqa.pft.javawebtesting.tests.Groups;
 
 import org.testng.annotations.Test;
 import ru.stqa.pft.javawebtesting.model.GroupData;
+import ru.stqa.pft.javawebtesting.tests.TestBase;
 
-public class EditGroupTest extends TestBase{
+public class EditGroupTest extends TestBase {
 
     @Test
     public void editGroupTest(){

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.javawebtesting.tests.Contact.DeleteContactTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-08T09:56:14" hostname="YARRISLAPTOP" time="0.192">
+  <properties/>
+  <testcase name="deleteContact" classname="ru.stqa.pft.javawebtesting.tests.Contact.DeleteContactTest" time="0.192"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

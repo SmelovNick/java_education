@@ -31,4 +31,28 @@ public class ContactHelper extends HelperBase{
     public void returnToHomePage() {
             driver.findElement(By.linkText("home page")).click();
     }
+
+    public void initContactModification() {
+        click(By.xpath("//a[@href='edit.php?id=1']"));
+    }
+
+    public void fillContactForm(ContactData contactData) {
+        typeInField(By.name("firstname"), contactData.getName());
+        typeInField(By.name("lastname"), contactData.getLastname());
+        typeInField(By.name("email"), contactData.getEmail());
+        typeInField(By.name("mobile"), contactData.getMobilePhone());
+    }
+
+    public void submitContactModification() {
+        click(By.name("update"));
+    }
+
+    public void selectContact() {
+        click(By.name("selected[]"));
+    }
+
+    public void deleteSelectedContact() {
+        click(By.cssSelector("input[type='button'][value='Удалить']"));
+        driver.switchTo().alert().accept();
+    }
 }
