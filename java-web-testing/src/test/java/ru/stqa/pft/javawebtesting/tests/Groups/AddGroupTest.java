@@ -7,7 +7,7 @@ import ru.stqa.pft.javawebtesting.tests.TestBase;
 public class AddGroupTest extends TestBase {
 
   @Test
-  public void addGroup() {
+  public void addGroup() throws InterruptedException {
     app.getNavigationHelper().goToFollowPage("Группы");
     app.getGroupHelper().initGroupCreation();
     app.getGroupHelper().fillGroupForm(new GroupData("test1", "test1", "test1"));
