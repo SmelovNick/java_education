@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.javawebtesting.tests.AddContactTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-08T09:14:49" hostname="YARRISLAPTOP" time="0.794">
+  <properties/>
+  <testcase name="addContactTest" classname="ru.stqa.pft.javawebtesting.tests.AddContactTest" time="0.794"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

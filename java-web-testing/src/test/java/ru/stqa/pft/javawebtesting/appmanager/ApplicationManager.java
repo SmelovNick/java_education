@@ -10,6 +10,7 @@ public class ApplicationManager {
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
     private SessionHelper sessionHelper;
+    private ContactHelper contactHelper;
     JavascriptExecutor js;
 
     public void init() {
@@ -18,6 +19,7 @@ public class ApplicationManager {
         sessionHelper = new SessionHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         groupHelper = new GroupHelper(driver);
+        contactHelper = new ContactHelper(driver);
         js = (JavascriptExecutor) driver;
         driver.get("http://localhost/addressbook/");
         sessionHelper.login("admin", "secret");
@@ -33,5 +35,8 @@ public class ApplicationManager {
 
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
+    }
+    public ContactHelper getContactHelper() {
+        return contactHelper;
     }
 }
