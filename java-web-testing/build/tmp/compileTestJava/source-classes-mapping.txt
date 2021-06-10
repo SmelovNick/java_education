@@ -1,7 +1,5 @@
 ru/stqa/pft/javawebtesting/model/GroupData.java
  ru.stqa.pft.javawebtesting.model.GroupData
-ru/stqa/pft/javawebtesting/model/ContactData.java
- ru.stqa.pft.javawebtesting.model.ContactData
 ru/stqa/pft/javawebtesting/tests/Contact/DeleteContactTest.java
  ru.stqa.pft.javawebtesting.tests.Contact.DeleteContactTest
 ru/stqa/pft/javawebtesting/tests/Groups/EditGroupTest.java
@@ -16,15 +14,17 @@ ru/stqa/pft/javawebtesting/appmanager/HelperBase.java
  ru.stqa.pft.javawebtesting.appmanager.HelperBase
 ru/stqa/pft/javawebtesting/appmanager/GroupHelper.java
  ru.stqa.pft.javawebtesting.appmanager.GroupHelper
-ru/stqa/pft/javawebtesting/tests/Contact/EditContactTest.java
- ru.stqa.pft.javawebtesting.tests.Contact.EditContactTest
+ru/stqa/pft/javawebtesting/tests/Groups/AddGroupTest.java
+ ru.stqa.pft.javawebtesting.tests.Groups.AddGroupTest
 ru/stqa/pft/javawebtesting/tests/Groups/DeleteGroupTest.java
  ru.stqa.pft.javawebtesting.tests.Groups.DeleteGroupTest
+ru/stqa/pft/javawebtesting/model/ContactData.java
+ ru.stqa.pft.javawebtesting.model.ContactData
 ru/stqa/pft/javawebtesting/appmanager/NavigationHelper.java
  ru.stqa.pft.javawebtesting.appmanager.NavigationHelper
 ru/stqa/pft/javawebtesting/tests/Contact/AddContactTest.java
  ru.stqa.pft.javawebtesting.tests.Contact.AddContactTest
 ru/stqa/pft/javawebtesting/appmanager/ContactHelper.java
  ru.stqa.pft.javawebtesting.appmanager.ContactHelper
-ru/stqa/pft/javawebtesting/tests/Groups/AddGroupTest.java
- ru.stqa.pft.javawebtesting.tests.Groups.AddGroupTest
+ru/stqa/pft/javawebtesting/tests/Contact/EditContactTest.java
+ ru.stqa.pft.javawebtesting.tests.Contact.EditContactTest

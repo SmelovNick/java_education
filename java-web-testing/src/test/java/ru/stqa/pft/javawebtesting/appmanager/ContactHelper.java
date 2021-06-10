@@ -2,6 +2,8 @@ package ru.stqa.pft.javawebtesting.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import ru.stqa.pft.javawebtesting.model.ContactData;
 
 public class ContactHelper extends HelperBase{
@@ -17,11 +19,16 @@ public class ContactHelper extends HelperBase{
         click(By.cssSelector("input[name='quickadd']"));
     }
 
-    public void fillContactData(ContactData contactData) {
+    public void fillContactData(ContactData contactData, boolean creation) {
         typeInField(By.name("firstname"), contactData.getName());
         typeInField(By.name("lastname"), contactData.getLastname());
         typeInField(By.name("mobile"), contactData.getMobilePhone());
         typeInField(By.name("email"), contactData.getEmail());
+        if(creation == true){
+            new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+        } else{
+            Assert.assertFalse(isElementPresent(By.name("new_group")));
+        }
     }
 
     public void initContactDataSubmit() {
