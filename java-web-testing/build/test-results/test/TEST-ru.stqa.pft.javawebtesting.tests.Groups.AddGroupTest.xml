@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.javawebtesting.tests.Groups.AddGroupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-08T22:21:55" hostname="YARRISLAPTOP" time="0.694">
+<testsuite name="ru.stqa.pft.javawebtesting.tests.Groups.AddGroupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-10T09:31:02" hostname="YARRISLAPTOP" time="0.664">
   <properties/>
-  <testcase name="addGroup" classname="ru.stqa.pft.javawebtesting.tests.Groups.AddGroupTest" time="0.694"/>
+  <testcase name="addGroup" classname="ru.stqa.pft.javawebtesting.tests.Groups.AddGroupTest" time="0.664"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

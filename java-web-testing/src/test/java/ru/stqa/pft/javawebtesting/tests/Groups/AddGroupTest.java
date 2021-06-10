@@ -10,7 +10,7 @@ public class AddGroupTest extends TestBase {
   public void addGroup() throws InterruptedException {
     app.getNavigationHelper().goToFollowPage("Группы");
     app.getGroupHelper().initGroupCreation();
-    app.getGroupHelper().fillGroupForm(new GroupData("test1", "test1", "test1"));
+    app.getGroupHelper().fillGroupForm(new GroupData("test13", null, null));
     app.getGroupHelper().submitGroupCreation();
     app.getGroupHelper().returnToGroupPage();
   }
